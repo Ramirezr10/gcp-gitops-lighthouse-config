@@ -2,15 +2,15 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: lighthouse-web
-Spec:
+spec:
   replicas: 1
   selector:
     matchLabels:
       app: web
-    template:
-      metadata:
-        labels:
-          app: web 
+  template:
+    metadata:
+      labels:
+        app: web 
       spec:
         containers:
         - name: nginx
