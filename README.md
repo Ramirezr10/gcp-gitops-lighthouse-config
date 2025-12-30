@@ -20,7 +20,7 @@ This project implements a "Push-button" infrastructure and application lifecycle
 
 ## 4. Key Achievements & Proof of Work
 - **Automated Scaling**: Demonstrated GitOps by scaling from 1 to 3 replicas via Git commit, with ArgoCD reconciling the state in <60 seconds.
-- **Resource Optimization**: Successfully migrated from `f1-micro` to `e2-medium` to resolve TLS handshake and memory thrashing issues.
+- **Resource Optimization**: Successfully migrated from `e2-micro` to `e2-medium` to resolve TLS handshake and memory thrashing issues.
 - **Security**: Implemented Least Privilege firewall rules, specifically exposing port `30080` for application traffic.
 
 ## 5. How to View
